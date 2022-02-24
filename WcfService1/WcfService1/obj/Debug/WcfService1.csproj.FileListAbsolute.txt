@@ -1,0 +1,13 @@
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\WcfService1.dll.config
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\WcfService1.dll
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\WcfService1.pdb
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\EntityFramework.dll
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\EntityFramework.SqlServer.dll
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\EntityFramework.xml
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\bin\EntityFramework.SqlServer.xml
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\obj\Debug\WcfService1.Migrations.add_employee.resources
+C:\Users\trieu\source\repos\AsmPhamThang\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.GenerateResource.cache
