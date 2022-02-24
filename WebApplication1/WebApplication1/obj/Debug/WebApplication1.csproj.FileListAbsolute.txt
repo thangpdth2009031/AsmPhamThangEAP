@@ -74,6 +74,5 @@ C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\bin\Ant
 C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
 C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
-C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\trieu\source\repos\AsmPhamThang\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

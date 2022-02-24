@@ -21,5 +21,27 @@ namespace WcfService1
             db.SaveChanges();
             return employee;
         }
+
+        public List<Employee> ListEmployee(string department)
+        {
+            var students = from s in db.Employees
+                           select s;
+            if (!String.IsNullOrEmpty(department))
+            {
+                students = students.Where(s => s.Department.Contains(department));
+            }
+            return students.ToList();
+        }
+
+        public List<Employee> SearchEmployee(string department)
+        {
+            var students = from s in db.Employees
+                           select s;
+            if (!String.IsNullOrEmpty(department))
+            {
+                students = students.Where(s => s.Department.Contains(department));
+            }
+            return students.ToList();
+        }
     }
 }

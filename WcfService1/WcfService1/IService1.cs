@@ -15,5 +15,9 @@ namespace WcfService1
     {
         [OperationContract]
         Employee CreateEmployee(Employee employee);
+        [OperationContract]
+        List<Employee> ListEmployee(string department);
+        [OperationContract]
+        List<Employee> SearchEmployee(string department);
     }
 }

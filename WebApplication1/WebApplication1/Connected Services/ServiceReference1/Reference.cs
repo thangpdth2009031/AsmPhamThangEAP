@@ -115,6 +115,18 @@ namespace WebApplication1.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/CreateEmployee", ReplyAction="http://tempuri.org/IService1/CreateEmployeeResponse")]
         System.Threading.Tasks.Task<WebApplication1.ServiceReference1.Employee> CreateEmployeeAsync(WebApplication1.ServiceReference1.Employee employee);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListEmployee", ReplyAction="http://tempuri.org/IService1/ListEmployeeResponse")]
+        WebApplication1.ServiceReference1.Employee[] ListEmployee(string department);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ListEmployee", ReplyAction="http://tempuri.org/IService1/ListEmployeeResponse")]
+        System.Threading.Tasks.Task<WebApplication1.ServiceReference1.Employee[]> ListEmployeeAsync(string department);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/SearchEmployee", ReplyAction="http://tempuri.org/IService1/SearchEmployeeResponse")]
+        WebApplication1.ServiceReference1.Employee[] SearchEmployee(string department);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/SearchEmployee", ReplyAction="http://tempuri.org/IService1/SearchEmployeeResponse")]
+        System.Threading.Tasks.Task<WebApplication1.ServiceReference1.Employee[]> SearchEmployeeAsync(string department);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -150,6 +162,22 @@ namespace WebApplication1.ServiceReference1 {
         
         public System.Threading.Tasks.Task<WebApplication1.ServiceReference1.Employee> CreateEmployeeAsync(WebApplication1.ServiceReference1.Employee employee) {
             return base.Channel.CreateEmployeeAsync(employee);
+        }
+        
+        public WebApplication1.ServiceReference1.Employee[] ListEmployee(string department) {
+            return base.Channel.ListEmployee(department);
+        }
+        
+        public System.Threading.Tasks.Task<WebApplication1.ServiceReference1.Employee[]> ListEmployeeAsync(string department) {
+            return base.Channel.ListEmployeeAsync(department);
+        }
+        
+        public WebApplication1.ServiceReference1.Employee[] SearchEmployee(string department) {
+            return base.Channel.SearchEmployee(department);
+        }
+        
+        public System.Threading.Tasks.Task<WebApplication1.ServiceReference1.Employee[]> SearchEmployeeAsync(string department) {
+            return base.Channel.SearchEmployeeAsync(department);
         }
     }
 }

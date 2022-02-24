@@ -36,11 +36,10 @@ namespace WebApplication1.Controllers
         {
             service.CreateEmployee(employee);
             return RedirectToAction("ListEmployee");
-        }
-        [HttpGet]
-        public ActionResult ListEmployee()
-        {            
-            return View();
+        }        
+        public ActionResult ListEmployee(string searchString)
+        {
+            return View(service.ListEmployee(searchString));
         }
     }
 }
